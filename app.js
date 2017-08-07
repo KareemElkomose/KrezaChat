@@ -3,9 +3,9 @@ var app = express();
 
 app.use(express.static(__dirname + '/public'));
 app.use(express.static(__dirname + '/views'));
-/*app.get('/', function(req, res) {
-  res.render(views/index.html); 
-});*/
+app.get('/', function(req, res) {
+  res.render(views/index); 
+});
 var port = 5000 || process.env.PORT ;
 
 
