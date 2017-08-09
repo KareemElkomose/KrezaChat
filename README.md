@@ -1,0 +1,2 @@
+# KrezaChat
+simple chat application
